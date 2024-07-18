@@ -63,7 +63,7 @@ const createTodoItem = (todo) => {
     buttonContainer.classList.add('buttonContainer');
 
     const deleteButton = document.createElement('button');
-    deleteButton.textContent = 'Delete';
+    deleteButton.textContent = 'Done';
     deleteButton.classList.add('delete');
     deleteButton.addEventListener('click',()=>{deleteTodo(todo)});
 
